@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#main{
+    display: block;
+    padding: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+    margin: 9px;
+    z-index: -1;
+    opacity: 0.89;
+    font-style: italic;
+    font-size: 62px;
+    text-shadow: 0px 2px 14px #037c07;
+    font-family: 'Pacifico', cursive;
+}
+#navbar{
+    display: flex;
+    height: 16px;
+    padding: 40px 0px;
+    
+    margin: 0px 34px;
+    border-radius: 11px;
+    z-index: -1;
+    
+}
+
+
+.items{
+    list-style: none;
+    display: inline-flex;
+}
+.items a{
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0px 108px;
+    margin-bottom: 45px;
+    color: white;
+    padding: 10px;
+    background-color: #e44f86;
+    border-radius: 39px;
+    border: 1px solid white;
+}
+ul{
+    display: flex;
+    margin: 31px 0px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo{
+    padding: 10px;
+    margin: -10px 32px;
+}
+#home::before{
+    content: "";
+    background: url(bg.jpg);
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    z-index: -1;
+    opacity: 0.95;
+}
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#home h2{
+    font-size: 66px;
+    padding: 54px;
+    padding-bottom: 10px;
+    color: #e8f6d9;
+    text-shadow: 2px 1px 11px red;
+    font-family: 'Birthstone', cursive;
+}
+#home p{
+    padding: 0px 312px;
+    color: white;
+    text-shadow: 0px 0px 11px rgb(220 114 114);
+    font-size: 20px;}
+#btn{
+    margin-top: 20px;
+    padding: 7px;
+    border: 2px solid #fcfafb;
+    border-radius: 10px;
+    background: #e85b73;
+    color: white;
+}
+#btn:hover{
+    background: #f01136; 
+    cursor: pointer;
+  }
+#services{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+  #services h2{
+      padding: 10px 0px;
+  }
+  .ser{
+      border: 2px solid #836666;
+      border-radius: 20px;
+      margin: 20px;
+      margin-top: 70px;
+      padding: 15px;
+      background-color: antiquewhite;
+  }
+  #burger{
+    height: 60px;
+    width: 85px;
+  }
+  .png{
+    height: 60px;
+    width: 85px;
+  }
+  form{
+      display: flex;      
+      align-items:center;      
+      flex-direction: column;
+      margin-top: 20px;
+      margin-bottom: 152px;
+      
+    }
+    input{
+        margin: 10px 0px;
+        padding: 5px 20px;
+        border-radius: 10px;
+        border-style:double;
+    }
+
+  #contact h2{
+      text-align: center;
+      padding: 50px;
+      padding-bottom: 5px;
+      font-size: 50px;
+      text-shadow: 2px 2px black;
+      color: aliceblue;
+
+  }    
+  #contact button{
+    border-radius: 10px;
+    border: 2px solid #7d7878;
+    padding: 4px 10px;
+    margin-top: 25px;
+  }
+  #contact button:hover{
+      cursor: pointer;
+      background-color: rgb(61, 59, 59);
+      color: aliceblue;
+  }
+  
+  #clients{
+      display: flex;
+      height: 200px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+     
+  }
+  
+ 
+  #clients img{
+    height: 80px;
+    width: 76px;
+    padding: 0px 95px;
+  }
+
+  #our-clients h1{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 40px;    
+    text-shadow: 2px 2px black;
+    color: aliceblue;
+  }
+  footer{
+      text-align: center;
+      background-color: rgb(59, 56, 56);
+      color: white;
+      opacity: 0.7;
+  }
+  a:hover{
+      background-color: #f1065c;
+      color: rgb(255, 255, 255);
+      border-radius: 39px;
+    
+  }
+  
+
